@@ -21,10 +21,10 @@ const sendMessage = (text) => {
     return res.json();
   }).then(res => {
     console.log(res);
-    alert('Pesan Berhasil Terkirim');
+    alert('Lamaran Anda Berhasil Terkirim');
   }).catch(err => {
     console.log(err);
-    alert('Error: Gagal Mengirim Pesan');
+    alert('Error: Gagal Mengirim Lamaran');
   });
 }
 
